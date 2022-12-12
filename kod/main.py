@@ -102,5 +102,5 @@ while True:
         xl2 = xl1
         xl1 = xl0
         
-        print(yl0, xn)
+        print(yl0, xn, hr)
         state = False
