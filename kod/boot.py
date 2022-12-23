@@ -22,7 +22,7 @@ def connect_wlan(ssid, password):
     return True
     
 
-SSID = "Test"
+SSID = "LifelineTest"
 PASSWORD = "lifeline"
 
 connect_wlan(SSID, PASSWORD)
