@@ -33,6 +33,6 @@ if OTA.update():
     print("Updated to the latest version! Rebooting...")
     time.sleep(5)
     machine.reset()
-
-
-
+    
+    
+    
