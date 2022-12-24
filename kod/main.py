@@ -123,7 +123,7 @@ while True:
                 count = 0;
        
             
-            print(y10, xn)
+            print(yl0, xn)
             
             state = False
         
