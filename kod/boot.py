@@ -27,7 +27,7 @@ PASSWORD = "lifeline"
 
 connect_wlan(SSID, PASSWORD)
     
-OTA = senko.Senko(user="cinarseyit", repo="Lifeline", branch = "main", working_dir="kod", files=["main.py", "boot.py"])
+OTA = senko.Senko(user="cinarseyit", repo="Lifeline", branch = "main", working_dir="kod", files=["main.py"])
 
 if OTA.update():
     print("Updated to the latest version! Rebooting...")
