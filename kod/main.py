@@ -12,7 +12,7 @@ instance1 = 0
 timer = 0
 count = 0
 flag = 0
-threshold = 125
+threshold = 400
 hr = 72
 hrv = 0
 interval = 0
@@ -123,7 +123,7 @@ while True:
                 count = 0;
        
             
-            print(yl0, hr)
+            print(yl0, xn, hr)
             
             state = False
         
