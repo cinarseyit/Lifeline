@@ -23,7 +23,7 @@ Sampling_Frequency = micropython.const(5) # 5ms = 200Hz
 timer_0 = Timer(0)
 
 p34 = Pin(34, Pin.IN)
-adc = ADC(p34)
+adc = ADC(p36)
 
 adc.atten(ADC.ATTN_11DB) # 0 - 3.3V sampling
 adc.width(ADC.WIDTH_12BIT)
@@ -123,7 +123,7 @@ while True:
                 count = 0;
        
             
-            print(yl0, xn, hr)
+            print(hr)
             
             state = False
         
